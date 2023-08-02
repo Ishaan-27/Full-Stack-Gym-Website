@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerZone Club</title>
+    <link href="./style/style.css" rel="stylesheet">
+    <link href="./style/mediaqueries.css" rel="stylesheet">
+    <link href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
+    <script src="./script/scriptt.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"></head>
+<body>
+        <header>
+            <div class="headerLogo">
+                <a href="#">
+                    <div><span>Power</span>Zone</div>
+                    <img src="images/Power1.png" height="20px">
+                </a>
+            </div>
+            <div id="showMenu"></div>
+            <nav>
+                <a href="#mainSection"><span>Home</span></a>
+                <a href="#plansSection"><span>Plans</span></a>
+                <a href="#aboutUsSection"><span>About us</span></a>
+                <a href="#trainerssection"><span>Trainers</span></a>
+                <a href="#registerSection"><span>Register Now</span></a> 
+                <a href="#GallerySection"><span>Gallery</span></a>
+                <a href="#findUsSection"><span>Find us</span></a>
+                <a href="#contact"><span>Contact</span></a>
+                
+            </nav>
+        </header>
+
+        <section id="mainSection" class="mainSection">
+            <main>
+                <div class="content">
+                    <span id="title">ARE YOU READY</span>
+                    <span id="subtitle">to work out?</span>
+                    <span id="text">Join PowerZone and enjoy groundbreaking equipment and monthly workouts. Plus, save
+                        10% with our
+                        Basic membership plan!</span>
+                    <a href="register.php">
+                        <div id="startBtn" ><button>START NOW</button></div>
+                    </a>
+                    
+                </div>
+            </main>
+        </section>
+
+        <section id="plansSection" >
+            <h1 id="plansTitle">Our <span>special plans</span></h1>
+            <div class="plans">
+                <div id="basicPlan"  style="height: 14cm;">
+                    <h1>Online Fitness Course</h1>
+                    <div class="price">
+                        999<span>rs</span>
+                    </div>
+                    <span class="perMonthText">per month</span>
+                    <ul> Get access to:
+                        <li><i class="fa-regular fa-check"></i> Premium full body workout course including  yoga and fitness training programme</li>
+                    </ul>
+                    <form action="func.php" method="post">
+                            <button type="submit" name="on_plan" class="purchasePlan">PURCHASE NOW</button>
+                    </form>
+
+                </div>
+                <div id="basicPlan" style="height: 14cm;">
+                    <h1>BASIC</h1>
+                    <div class="price">
+                        1999<span>rs</span>
+                    </div>
+                    <span class="perMonthText">per month</span>
+                    <ul> Get access to:
+                        <li><i class="fa-regular fa-check"></i> Weight training room</li>
+                        <li><i class="fa-regular fa-check"></i> Aerobics room</li>
+                        <li style ="color:brown;width:40cm;"><i class="fa-regular fa-check"></i> Quarterly   -> rs 5499</li>
+                        <li style ="color:brown;width:40cm;"><i class="fa-regular fa-check"></i> Half Yearly -> rs 9999</li>
+                    </ul>
+                    <form action="func.php" method="post">
+                        <button type="submit" name="ba_plan" class="purchasePlan">PURCHASE NOW</button>
+                    </form>
+                </div>
+                <div id="standardPlan" style="height: 14cm;">
+                    <div class="popular">POPULAR</div>
+                    <h1>STANDARD</h1>
+                    <div class="price">
+                        2999<span>rs</span>
+                    </div>
+                    <span class="perMonthText">per month</span>
+                    <ul> Get access to:
+                        <li><i class="fa-regular fa-check"></i> Weight training room</li>
+                        <li><i class="fa-regular fa-check"></i> Aerobics room</li>
+                        <li><i class="fa-regular fa-check"></i> Heated swimming pool</li>
+                        <li><i class="fa-regular fa-check"></i> Sauna</li>
+                        <li><i class="fa-regular fa-check"></i> Crossfit area</li>
+                        <li><i class="fa-regular fa-check"></i> Martial arts classes</li>
+                        <li style ="color:brown;width:40cm;"><i class="fa-regular fa-check"></i> Quarterly   -> rs 7999</li>
+                        <li style ="color:brown;width:40cm;"><i class="fa-regular fa-check"></i> Half Yearly -> rs 14999</li>
+
+                    </ul>
+                    <form action="func.php" method="post">  
+                        <button type="submit" name="st_plan" class="purchasePlan">PURCHASE NOW</button>
+                    </form>
+                </div>
+                <div id="premiumPlan" style="height: 14cm;">
+                    <h1>PREMIUM</h1>
+                    <div class="price">
+                        4999<span>rs</span>
+                    </div>
+                    <span class="perMonthText">per month</span>
+                    <ul> Get access to:
+                        <li><i class="fa-regular fa-check"></i> Weight training room</li>
+                        <li><i class="fa-regular fa-check"></i> Aerobics room</li>
+                        <li><i class="fa-regular fa-check"></i> Heated swimming pool</li>
+                        <li><i class="fa-regular fa-check"></i> Crossfit area and Sauna</li>
+                        <li><i class="fa-regular fa-check"></i> Personal trainer</li>
+                        <li><i class="fa-regular fa-check"></i> Dietician, diet plans and meal guides</li>
+                        <li style ="color:brown;width:40cm;"><i class="fa-regular fa-check"></i> Quarterly   -> rs 12999</li>
+                        <li style ="color:brown;width:40cm;"><i class="fa-regular fa-check"></i> Half Yearly -> rs 14999</li>
+
+                    </ul>
+                    <form action="func.php" method="post">  
+                        <button type="submit" name="pr_plan" class="purchasePlan">PURCHASE NOW</button>
+                    </form>
+                </div>
+                
+            </div>
+        </section>
+        <section id="aboutUsSection">
+            <h2 id="aboutUsTitle">About <span>Us</span> </h2>
+            <div class="textAndImg">
+                <div class="image"><img src="./images/Gym1.jpg"></div>
+                <div class="aboutUsText">
+                    <p>
+                        <span><span>Power</span>Zone</span> is a premium Health and Fitness space in the heart of the
+                        city. We provide
+                        our members
+                        with the best workouts coupled with personal training to achieve their fitness goals. Our
+                        memberships are designed for those who love to train hard and crave variety in their workouts.
+                    </p>
+                    <p>
+                        Our mission is to change the way people live by transforming the fitness industry. PowerZone was created in 2009 by Mr.Devesh Kulkarni out of a need for a revolutionary training environment that focused on our members' health and lifestyle, not just their physical appearance. We want to create a community where people can get healthy together. We pride ourselves on getting you results through carefully crafted programs, expertly designed spaces and equipment and great music!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="trainerssection" style="text-emphasis-color: white;">
+            <h1 id="trainerstitle">Our <span>Expert</span>Trainers</h1>
+            <div class="trainers">
+                <div id="t11">
+                    <h1 style="color: #FFD60A;font-size: 1.5em;">Shivraj Bhasme</h1>
+                    <div class="image"><img src="./images/T1.png" height="250px"></div>
+                    <div class="price">
+                    <span>&#x20b9;9999 <span style="font-size:smaller ;">/month</span></span>
+                    </div>
+                    <ul>
+                        <li><i class="fa-regular fa-check"></i> Coaching experience of 15+ yrs</li>
+                        <li><i class="fa-regular fa-check"></i> Exercise Program Design</li>
+                        <li><i class="fa-regular fa-check"></i> Fitness Instruction</li>
+                        <li><i class="fa-regular fa-check"></i> Nutritional Knowledge</li>
+                        <li><i class="fa-regular fa-check"></i> Good Communication Skills</li>
+                        <li><i class="fa-regular fa-check"></i> Weight Manangement</li>
+                        <li><i class="fa-regular fa-check"></i> Knowledge of Human Anatomy</li>
+                    </ul>
+                </div>
+                <div id="t13">
+                    <h1 style="color: #FFD60A;font-size: 1.5em;">Ashish Mali</h1>
+                    <div class="image"><img src="./images/T1.png" height="250px"></div>
+                    <div class="price">
+                    <span>&#x20b9;5999<span style="font-size:smaller ;">/month</span></span>
+                    </div>
+                    <ul>
+                        <li><i class="fa-regular fa-check"></i> Coaching experience of 8+ yrs</li>
+                        <li><i class="fa-regular fa-check"></i> Exercise Program Design</li>
+                        <li><i class="fa-regular fa-check"></i> Fitness Instruction</li>
+                        <li><i class="fa-regular fa-check"></i> Good Communication Skills</li>
+                        <li><i class="fa-regular fa-check"></i> Weight Manangement</li>
+                    </ul>
+                </div>
+                <div id="t16">
+                    <h1 style="color: #FFD60A;font-size: 1.5em;">Ayush Anand</h1>
+                    <div class="image"><img src="./images/T1.png" height="250px"></div>
+                    <div class="price">
+                    <span>&#x20b9;4999 <span style="font-size:smaller ;">/month</span></span>
+                    </div>
+                    <ul>
+                        <li><i class="fa-regular fa-check"></i> Coaching experience of 1+ yrs</li>
+                        <li><i class="fa-regular fa-check"></i> Exercise Program Design</li>
+                        <li><i class="fa-regular fa-check"></i> Good Communication Skills</li>
+                        <li><i class="fa-regular fa-check"></i> Weight Manangement</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="registerSection" style="height:auto;background-color: black; color:gold;text-align: center;">
+            <h1 id="registertitle">Join <span> PowerZone </span> by filling the registeration form</h1>
+            <input type="button" id="regbtn" value="Register Now" style="align-self: center;
+            margin-top: auto;
+            margin-bottom: 20px;
+            padding: 10px;
+            cursor: pointer;
+            background-color: #FFD60A;
+            box-shadow: 1px 1px 5px #c4c4c4;
+            color: #000814;
+            border: none;
+            letter-spacing: 1px;
+            font-weight: 600;
+            transition: 0.4s;" onclick="window.location.href='register.php'">
+        </section>
+
+        <section id="GallerySection">
+            <h2 id="GalleryTitle">Have a look at<span> our Facilities</span> </h2>
+            <div class="textAndImg">
+                <div class="image"><img src="./images/sauna.jpg"></div>
+                <div class="gallerytext">
+                    <p>
+                        <span><span>Power</span>Zone</span>Zone is a premium fitness centre equipped with best of the facilities Our facilities include :-
+                    </p>
+                    <span style="color:gold ">
+                        <ul class="list-group" >
+                            <li class="list-group-item" style="background-color: #000814;">-> Weight training room with all the equipments needed for a perfect workout</li>
+                            <li class="list-group-item" style="background-color: #000814;">-> Aerobics room</li>
+                            <li class="list-group-item" style="background-color: #000814;">-> Heated swimming pool</li>
+                            <li class="list-group-item" style="background-color: #000814;">-> Crossfit area</li>
+                            <li class="list-group-item" style="background-color: #000814;">-> Sauna</li>
+                        </ul>
+                        </span>   
+                  
+                        <button onclick="window.location.href='gallery.html'"> Click here to have a glance at our facilities </button> 
+                </div>
+            </div>
+        </section>
+        <section id="findUsSection">
+            <div class="mapAddress">
+                <div>
+                    <i class="fa-solid  fa-location-dot"></i>
+                    <p>Find us at</p>
+                    <p>Indore Stadium Complex, 
+                        Race Course road,</p>
+                    <p>Indore, Madhya Pradesh</p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1840.0415183648677!2d75.87800992113314!3d22.725154818702645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe08a1389f0a1209!2sIndore%20stadium!5e0!3m2!1sen!2sin!4v1662050715735!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <footer id="contact">
+            <div class="contacts">
+                <p>Our social media</p>
+                <div class="imgs">
+                    <img src="./images/facebook1.png" height="35px">
+                    <img src="./images/instagram1.png" height="35px">
+                    <img src="./images/twitter1.png" height="35px">
+                    <img src="./images/whatsapp1.png" height="35px">
+                    <img src="./images/email.png" height="35px">
+                </div>
+            </div>
+            <div class="newsletter">
+                <p>You are always welcome to subscribe to our newsletter : </p>
+                <input type="email" placeholder="mail@example.com">
+                <button>Submit</button>
+            </div>
+        </footer>
+    <i class="fa-solid fa-up"></i>
+</body>
+<script src="/js/scriptt.js"></script>
+</html>
